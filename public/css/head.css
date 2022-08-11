@@ -1,0 +1,57 @@
+
+
+  body {
+    background-color: rgb(241, 231, 231);
+    font-family: "Open Sans", sans-serif;
+  }
+
+  header {
+    background: rgb(249, 249, 249);
+    background: radial-gradient(circle, rgba(249, 249, 249, 1) 24%, rgba(0, 152, 214, 1) 100%);
+  }
+
+  header img {
+    padding: 10px;
+    position: relative;
+    margin: auto;
+    top: -0px; /*ajustar los valores para mover la imagen  */
+    left: 39%;
+    width: 400px;
+    height: 150px;
+  }
+
+   ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+  }
+
+  li {
+    display: inline;
+    float: left;
+    border-right: 1px solid #666;
+  }
+
+
+
+
+  li a {
+    display: block;
+    color: rgba(13, 13, 13, 0.8);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color:  rgba(0, 152, 214, 1);
+    color: beige;
+  }
+
+  li:last-child {
+    border-right: none;
+  }

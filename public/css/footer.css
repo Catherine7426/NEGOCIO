@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .contenedor1 {
+    width: 100%;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+
+  footer {
+    background-color: #000;
+    /*clear: both; rompe la propiedad pa que no se mezcle */
+  }
+
+  footer h2 ,h4 {
+    font-size: 15px;
+    text-align: center;
+    padding: 10px;
+    font-style: italic;
+    color: white;
+  }
+
+  footer h3 {
+    font-size: 13px;
+    text-align: center;
+    padding: 10px;
+    font-style: italic;
+    color: white;
+  }
+
+
+
